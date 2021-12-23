@@ -26,3 +26,17 @@ ramkol1.displayDetales()
 
 ramkol1.volume = 12
 console.log(ramkol1.volume)
+
+ramkol1.color = "yellow"
+console.log(ramkol1)
+
+let ramkol2 = new Ramkol("blue",2)
+ramkol2.modeOn()
+ramkol2.modeOff()
+ramkol2.displayDetales()
+
+ramkol2.volume = 6
+console.log(ramkol2.volume)
+
+ramkol2.color = "black"
+console.log(ramkol2.color)
