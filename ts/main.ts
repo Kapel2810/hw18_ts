@@ -19,24 +19,42 @@
 //------- ex 2 -------
 //Ramkol
 
-let ramkol1 = new Ramkol("red",10)
-ramkol1.modeOn()
-ramkol1.modeOff()
-ramkol1.displayDetales()
+// let ramkol1 = new Ramkol("red",10)
+// ramkol1.modeOn()
+// ramkol1.modeOff()
+// ramkol1.displayDetales()
 
-ramkol1.volume = 12
-console.log(ramkol1.volume)
+// ramkol1.volume = 12
+// console.log(ramkol1.volume)
 
-ramkol1.color = "yellow"
-console.log(ramkol1)
+// ramkol1.color = "yellow"
+// console.log(ramkol1)
 
-let ramkol2 = new Ramkol("blue",2)
-ramkol2.modeOn()
-ramkol2.modeOff()
-ramkol2.displayDetales()
+// let ramkol2 = new Ramkol("blue",2)
+// ramkol2.modeOn()
+// ramkol2.modeOff()
+// ramkol2.displayDetales()
 
-ramkol2.volume = 6
-console.log(ramkol2.volume)
+// ramkol2.volume = 6
+// console.log(ramkol2.volume)
 
-ramkol2.color = "black"
-console.log(ramkol2.color)
+// ramkol2.color = "black"
+// console.log(ramkol2.color)
+
+/////////////////////////////////
+//---------ex3----------
+
+//Lamp
+
+let lamp1 = new Lamp("white",20,15,2)
+lamp1.turnOn()
+lamp1.turnOff()
+lamp1.changeBattaries(3)
+lamp1.displayDetales()
+
+
+let lamp2 = new Lamp("black",30,5,4)
+lamp2.turnOn()
+lamp2.turnOff()
+lamp2.changeBattaries(2)
+lamp2.displayDetales()
