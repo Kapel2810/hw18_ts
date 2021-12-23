@@ -12,14 +12,14 @@ class Speaker {
   }
 
   public modeOff() {
-      console.log("off")
+    console.log("off");
   }
 
-  public showVolume(){
-      console.log(this.volume)
+  public showVolume() {
+    console.log(this.volume);
   }
 
-  displayAllDetales(){
-      console.log(this)
+  displayAllDetales() {
+    console.log(this);
   }
 }

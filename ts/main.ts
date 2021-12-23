@@ -46,15 +46,42 @@
 
 //Lamp
 
-let lamp1 = new Lamp("white",20,15,2)
-lamp1.turnOn()
-lamp1.turnOff()
-lamp1.changeBattaries(3)
-lamp1.displayDetales()
+// let lamp1 = new Lamp("white",20,15,2)
+// lamp1.turnOn()
+// lamp1.turnOff()
+// lamp1.changeBattaries(3)
+// lamp1.displayDetales()
 
 
-let lamp2 = new Lamp("black",30,5,4)
-lamp2.turnOn()
-lamp2.turnOff()
-lamp2.changeBattaries(2)
-lamp2.displayDetales()
+// let lamp2 = new Lamp("black",30,5,4)
+// lamp2.turnOn()
+// lamp2.turnOff()
+// lamp2.changeBattaries(2)
+// lamp2.displayDetales()
+
+
+////////////////////////////
+//--------ex4--------
+//Panas
+
+let panas1 = new Panas ("red")
+panas1.turnOn()
+panas1.turnOff()
+panas1.displayDetales()
+panas1.length = 6
+console.log( "the length changed to "+ panas1.length)
+panas1.battaries = 4
+console.log("the number of battaries changed to " +panas1.battaries)
+panas1.intensity = 10
+console.log ("the light intensity changed to "+panas1.intensity)
+
+let panas2 = new Panas ("red")
+panas2.turnOn()
+panas2.turnOff()
+panas2.displayDetales()
+panas2.length = 51
+console.log( "the length changed to "+ panas2.length)
+panas2.battaries = 4
+console.log("the number of battaries changed to " +panas2.battaries)
+panas2.intensity = 10
+console.log ("the light intensity changed to "+panas2.intensity)
